@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: New Blog Add
+title: CAR Blog
 featuredImage: uploads/car.jpeg
 ---
 
