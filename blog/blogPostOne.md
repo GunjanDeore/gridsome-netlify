@@ -1,6 +1,6 @@
 ---
 title: Blog Post One
-featuredImage: /uploads/puppy1.jpg
+featuredImage: /uploads/three.jpg
 ---
 
 # Blog Post One

@@ -1,6 +1,6 @@
 ---
 title: Blog Post F5
-featuredImage: /uploads/puppy3.jpg
+featuredImage: /uploads/one.jpg
 ---
 
 # Blog Post Three

@@ -1,11 +1,11 @@
 <template>
-  <BlogLayout>
+  <layout>
     <div class="markdown-body">
       <h1>{{ $page.post.title }}</h1>
-      <img :src="$page.post.featuredImage" alt="blog">
+      <img class="img" :src="$page.post.featuredImage" alt="blog">
       <div v-html="$page.post.content" />
     </div>
-  </BlogLayout>
+  </layout>
 </template>
 
 <page-query>
@@ -17,6 +17,12 @@ query Post ($path: String!) {
   }
 }
 </page-query>
+
+<style>
+.img{
+  width: 50%;
+}
+</style>
 
 <script>
 export default {
