@@ -2,21 +2,18 @@
   <Layout>
 
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
 
-    <h1>Hello, world!</h1>
+    <h3>Gunjan</h3>
+    <h1>Blog using Netlify CMS</h1>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
+    <h1>Default Blogs</h1>
     <ul>
       <li><g-link to="/blog-Html/blog-Post-One/">Blog Post One</g-link></li>
       <li><g-link to="/blog-Html/blog-Post-Two/">Blog Post Two</g-link></li>
       <li><g-link to="/blog-Html/blog-Post-Three/">Blog Post Three</g-link></li>
     </ul>
 
-    <h1>Automatic</h1>
+    <h1>Automatic Generate using Netlify CMS</h1>
     <ul>
       <li v-for="post in $page.posts.edges" :key="post.id">
         <g-link :to="post.node.path">

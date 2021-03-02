@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: CAR Blog
-featuredImage: uploads/car.jpeg
+featuredImage: /uploads/car.jpeg
 ---
 
 
