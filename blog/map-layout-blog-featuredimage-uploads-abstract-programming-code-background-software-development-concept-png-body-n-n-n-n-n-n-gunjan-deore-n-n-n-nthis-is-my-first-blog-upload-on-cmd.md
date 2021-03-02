@@ -1,6 +1,7 @@
 ---
 layout: blog
-featuredImage: uploads/abstract-programming-code-background.-software-development-concept..png
+title: New Blog Add
+featuredImage: uploads/car.jpeg
 ---
 
 
